@@ -76,7 +76,7 @@ jobs:
         run: |
           if [ ! -f "windows.img" ]; then
              qemu-img create -f raw windows.img 25G
-             wget "https://archive.org/download/tiny-11-NTDEV/tiny11%2023H2%20x64.iso" -O windows.iso 
+             wget "https://archive.org/download/tiny-10-NTDEV/tiny10%2023h1%20x64.iso" -O windows.iso 
              touch cdrom
           fi
 
